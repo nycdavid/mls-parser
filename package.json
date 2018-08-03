@@ -1,0 +1,24 @@
+{
+  "name": "mls-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "emailParser.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nycdavid/mls-parser.git"
+  },
+  "author": "David Ko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nycdavid/mls-parser/issues"
+  },
+  "homepage": "https://github.com/nycdavid/mls-parser#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0"
+  }
+}
