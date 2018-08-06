@@ -23,7 +23,8 @@ reports.forEach(report => {
     city: heading.querySelector('.town').innerText,
     address: heading.querySelector('.address').innerText,
     price: heading.querySelector('.price').innerText,
-    metadata: {}
+    metadata: {},
+    units:[]
   }
 
   // Iterate through details (acres, rooms, etc.)
@@ -50,4 +51,7 @@ reports.forEach(report => {
       listing.metadata[key] = value.substring(keyTxt.length, value.length)
     })
   listings.push(listing)
+
+  let unitData = reports[6]
+  Array.from(unitData)
 })
